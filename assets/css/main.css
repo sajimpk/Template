@@ -1202,7 +1202,24 @@ body.loaded {
 	top: 0;
 }
 /* END: Services Section */
-
+.button {
+	padding: 15px 30px;
+	margin: 5px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #007bff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.button:hover {
+	background-color: #b0b300;
+	transform: scale(1.05);
+}
+.button:active {
+	background-color: #129406;
+}
 /*
 * ===============================
 *  START: Portfolio Section
@@ -1217,13 +1234,13 @@ body.loaded {
 	margin-left: auto;
 	margin-right: auto;
 }
-.portfolio-filter .button-group {
+.portfolio-filter .button-groupW {
 	background-color: var(--tj-black-2);
 	border-radius: 60px;
 	padding: 6px 8px;
 	display: inline-block;
 }
-.portfolio-filter .button-group button {
+.portfolio-filter .button-groupW button {
 	background: transparent;
 	border: none;
 	color: var(--tj-white);
@@ -1235,10 +1252,10 @@ body.loaded {
 	z-index: 10;
 	position: relative;
 }
-.portfolio-filter .button-group {
+.portfolio-filter .button-groupW {
 	position: relative;
 }
-.portfolio-filter .button-group .active-bg {
+.portfolio-filter .button-groupW .active-bg {
 	border-radius: 50px;
 	top: 0px;
 	bottom: 0px;
